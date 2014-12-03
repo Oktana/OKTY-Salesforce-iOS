@@ -1,0 +1,57 @@
+# Git clone salesforce sdk
+git clone https://github.com/khawkins/SalesforceMobileSDK-iOS-Distribution.git
+# Move to SalesforceMobileSDK-iOS-Distribution folder
+cd SalesforceMobileSDK-iOS-Distribution
+# Download submodule
+git submodule update --init
+# Delete debug zip files
+for debug in $( find . -type f -name '*Debug.zip'  ); do 
+    rm $debug
+done
+# Unzip all files in tmp folder
+unzip \*.zip -d tmp
+#Create a pod folder
+mkdir pod
+#Move tmp folder
+cd tmp
+#Go through the files in the temp dir and copy to pod folder
+for folder in $(ls -d */); do 
+    #Move $folder folder
+    cd $folder
+    #Copy the contents to the pod files 
+    for subFiles in $(ls ); do 
+        cp -a $subFiles ../../pod
+    done
+    #Go up one folder
+    cd ..
+done
+#Go up one folder
+cd ..
+#Copy bundle to the pod folder 
+cp -a SalesforceSDKResources.bundle pod/
+cp -a Settings.bundle pod/
+#Move the ThirdParty folder
+cd ThirdParty
+#Go through all thir party folder
+for thirdPartyFolder in $(ls -d */); do 
+    #Go to $ThirdPartyFolder folder
+    cd $thirdPartyFolder
+    #Go through all files
+    for thirdPartyFile in $(ls); do  
+        #Copy the contents to the pod files 
+        cp -a $thirdPartyFile ../../pod
+    done
+    #Go up one folder
+    cd ..
+done
+#Go up one folder
+cd ..
+#Go to pod folder
+cd pod
+#Go through all folder in pod
+for copy in $( ls ); do
+     #Copy the contents to the root files 
+    cp -a $copy ../
+done
+#Go up one folder
+cd ..
