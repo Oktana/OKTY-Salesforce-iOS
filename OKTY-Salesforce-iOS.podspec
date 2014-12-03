@@ -12,8 +12,6 @@ Pod::Spec.new do |s|
     s.version          = "0.1.0"
     s.summary          = "A neat library manager to connect iOS with Salesforce."
     s.description      = <<-DESC
-                            A neat library manager to connect iOS with Salesforce.
-
                             OKTY-Salesforce-iOS, a neat library manager developed by Oktana, to connect native iOS apps with Salesforce.
 
                             Features
@@ -27,8 +25,10 @@ Pod::Spec.new do |s|
     s.source           = { :git => "https://github.com/Oktana/OKTY-Salesforce-iOS.git"}
     s.platform         = :ios, '7.0'
     s.requires_arc     = true
+    
+    s.screenshot       = 'http://www.oktana.io/drive/okty-salesforce-ios-sample.png'
 
-    s.source_files = 'SalesforceMobileSDK-iOS-Distribution/Headers/*'
+    s.source_files     = 'SalesforceMobileSDK-iOS-Distribution/Headers/*'
 
     s.vendored_libraries = "SalesforceMobileSDK-iOS-Distribution/libSalesforceCommonUtils.a", "SalesforceMobileSDK-iOS-Distribution/libMKNetworkKit-iOS.a", "SalesforceMobileSDK-iOS-Distribution/libSalesforceNetworkSDK.a", "SalesforceMobileSDK-iOS-Distribution/libSalesforceOAuth.a", "SalesforceMobileSDK-iOS-Distribution/libSalesforceSDKCore.a", "SalesforceMobileSDK-iOS-Distribution/libSalesforceSecurity.a","SalesforceMobileSDK-iOS-Distribution/libSalesforceRestAPI.a", "SalesforceMobileSDK-iOS-Distribution/libcrypto.a", "SalesforceMobileSDK-iOS-Distribution/libsqlcipher.a", "SalesforceMobileSDK-iOS-Distribution/libssl.a"
 
