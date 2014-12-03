@@ -28,8 +28,10 @@ To get further information about Salesforce read the following content:
 ##Installation
 - Install [Ruby](https://www.ruby-lang.org/en/installation/).
 - Install [CocoaPods](http://cocoapods.org/).
+
 `CocoaPodsis a dependency manager for Objective-C, which automates and simplifies the process of using 3rd-party libraries like `[SalesforceMobileSDK](https://github.com/forcedotcom/SalesforceMobileSDK-iOS-Distribution) `in your projects.`
 - Write on the **Podfile**:
+
     ```ruby 
         pod "OKTY-Salesforce-iOS" 
     ```
