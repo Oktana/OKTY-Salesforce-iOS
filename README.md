@@ -12,9 +12,9 @@ OKTY-Salesforce-iOS, a neat library manager developed by Oktana, to connect nati
 
 ##Getting Started
 
-Download OKTY-Salesforce-iOS and try out the included iPhone example apps.
-Read the "Getting Started" guide, FAQ, or other articles on the Wiki.
-Check out the documentation for a comprehensive look at all of the APIs available in OKTY-Salesforce-iOS.
+- Download OKTY-Salesforce-iOS and try out the included iPhone example apps.
+- Read the "Getting Started" guide, FAQ, or other articles on the Wiki.
+- Check out the documentation for a comprehensive look at all of the APIs available in OKTY-Salesforce-iOS.
 
 ##Communication
 
