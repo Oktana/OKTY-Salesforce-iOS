@@ -10,14 +10,15 @@
 Pod::Spec.new do |s|
     s.name             = "OKTY-Salesforce-iOS"
     s.version          = "0.1.0"
-    s.summary          = "A neat library manager to connect iOS with Salesforce."
+    s.summary          = "The easiest way to connect native iOS apps with Salesforce."
     s.description      = <<-DESC
-                            OKTY-Salesforce-iOS, a neat library manager developed by Oktana, to connect native iOS apps with Salesforce.
+                            OKTY-Salesforce-iOS, a library manager to connect native iOS apps with Salesforce.
 
                             Features
-                            * Makes easy to develop new apps
-                            * Integrates new features of Salesforce
-                            * Automatically sets-up a project
+                             * Makes it easy to develop new apps.
+                             * Ues the newest Salesforce libreries.
+                             * Automatically sets-up a project.
+
                        DESC
     s.homepage         = "https://github.com/Oktana/OKTY-Salesforce-iOS"
     s.license          = 'MIT'
