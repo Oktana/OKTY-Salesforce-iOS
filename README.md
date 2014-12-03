@@ -7,7 +7,7 @@ OKTY-Salesforce-iOS, a library manager to connect native iOS apps with [Salesfor
 
 ##Features
 - Makes it easy to develop new apps.
-- Uses the newest Salesforce labreries.
+- Uses the newest Salesforce libraries.
 - Automatically sets-up a project.
 
 ##Getting Started
@@ -28,7 +28,7 @@ To get further information about Salesforce read the following content:
 ##Installation
 - Install [Ruby](https://www.ruby-lang.org/en/installation/).
 - Install [CocoaPods](http://cocoapods.org/).
-    `CocoaPodsis a dependency manager for Objective-C, which automates and simplifies the process of using 3rd-party libraries like `[SalesforceMobileSDK](https://github.com/forcedotcom/SalesforceMobileSDK-iOS-Distribution) `in your projects.`
+`CocoaPodsis a dependency manager for Objective-C, which automates and simplifies the process of using 3rd-party libraries like `[SalesforceMobileSDK](https://github.com/forcedotcom/SalesforceMobileSDK-iOS-Distribution) `in your projects.`
 - Write on the **Podfile**:
     ```ruby 
         pod "OKTY-Salesforce-iOS" 
