@@ -73,7 +73,7 @@ Adds the resource bundle:
 
 - SalesforceSDKResources.bundle
 
-### Example 
+### [Example](https://github.com/Oktana/OKTY-Salesforce-iOS/tree/master/ExampleOktyPod) 
 
 - Import headers: `SFUserAccountManager.h`, `SFAuthenticationManager.h`
 
