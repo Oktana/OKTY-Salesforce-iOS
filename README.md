@@ -5,9 +5,9 @@ OKTY-Salesforce-iOS, a neat library manager developed by Oktana, to connect nati
 
 
 ##Features
-• Makes easy to develop new apps
-• Integrates new features of Salesforce
-• Automatically sets-up a project
+- Makes easy to develop new apps
+- Integrates new features of Salesforce
+- Automatically sets-up a project
 
 ====================
 
@@ -19,11 +19,11 @@ Check out the documentation for a comprehensive look at all of the APIs availabl
 
 ##Communication
 
-If you need help, use Stack Overflow. (Tag ‘OKTY-Salesforce-iOS’)
-If you'd like to ask a general question, use Stack Overflow.
-If you found a bug, and can provide steps to reliably reproduce it, open an issue.
-If you have a feature request, open an issue.
-If you want to contribute, submit a pull request.
+- If you need help, use Stack Overflow. (Tag ‘OKTY-Salesforce-iOS’)
+- If you'd like to ask a general question, use Stack Overflow.
+- If you found a bug, and can provide steps to reliably reproduce it, open an issue.
+- If you have a feature request, open an issue.
+- If you want to contribute, submit a pull request.
 
 *Installation with CocoaPods
 
