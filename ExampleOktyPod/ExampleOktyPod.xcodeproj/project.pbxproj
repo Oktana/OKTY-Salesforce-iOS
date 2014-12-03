@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8476CC041A2F531900AEA3EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8476CC031A2F531900AEA3EC /* main.m */; };
+		8476CC071A2F531900AEA3EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8476CC061A2F531900AEA3EC /* AppDelegate.m */; };
+		8476CC0A1A2F531900AEA3EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8476CC091A2F531900AEA3EC /* ViewController.m */; };
+		8476CC0D1A2F531900AEA3EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8476CC0B1A2F531900AEA3EC /* Main.storyboard */; };
+		8476CC0F1A2F531900AEA3EC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8476CC0E1A2F531900AEA3EC /* Images.xcassets */; };
+		8476CC121A2F531900AEA3EC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8476CC101A2F531900AEA3EC /* LaunchScreen.xib */; };
+		8476CC1E1A2F531900AEA3EC /* ExampleOktyPodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8476CC1D1A2F531900AEA3EC /* ExampleOktyPodTests.m */; };
+		8476CC2A1A2F55E900AEA3EC /* InitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8476CC281A2F55E900AEA3EC /* InitialViewController.m */; };
+		8476CC2B1A2F55E900AEA3EC /* InitialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8476CC291A2F55E900AEA3EC /* InitialViewController.xib */; };
+		8476CC2E1A2F55F000AEA3EC /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8476CC2D1A2F55F000AEA3EC /* RootViewController.m */; };
+		F06CAF7FF81DD21B898CB725 /* libPods-ExampleOktyPod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59374219A6CE4D13DF0DBF9F /* libPods-ExampleOktyPod.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8476CC181A2F531900AEA3EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8476CBF61A2F531900AEA3EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8476CBFD1A2F531900AEA3EC;
+			remoteInfo = ExampleOktyPod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		59374219A6CE4D13DF0DBF9F /* libPods-ExampleOktyPod.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ExampleOktyPod.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E457DF8E863D472568D4A29 /* Pods-ExampleOktyPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleOktyPod.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExampleOktyPod/Pods-ExampleOktyPod.debug.xcconfig"; sourceTree = "<group>"; };
+		8476CBFE1A2F531900AEA3EC /* ExampleOktyPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleOktyPod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8476CC021A2F531900AEA3EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8476CC031A2F531900AEA3EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8476CC051A2F531900AEA3EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8476CC061A2F531900AEA3EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8476CC081A2F531900AEA3EC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8476CC091A2F531900AEA3EC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8476CC0C1A2F531900AEA3EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8476CC0E1A2F531900AEA3EC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8476CC111A2F531900AEA3EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8476CC171A2F531900AEA3EC /* ExampleOktyPodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleOktyPodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8476CC1C1A2F531900AEA3EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8476CC1D1A2F531900AEA3EC /* ExampleOktyPodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleOktyPodTests.m; sourceTree = "<group>"; };
+		8476CC271A2F55E900AEA3EC /* InitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitialViewController.h; sourceTree = "<group>"; };
+		8476CC281A2F55E900AEA3EC /* InitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitialViewController.m; sourceTree = "<group>"; };
+		8476CC291A2F55E900AEA3EC /* InitialViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InitialViewController.xib; sourceTree = "<group>"; };
+		8476CC2C1A2F55F000AEA3EC /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		8476CC2D1A2F55F000AEA3EC /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		A6CEDCF072DF1A2CF54FDDEC /* Pods-ExampleOktyPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleOktyPod.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExampleOktyPod/Pods-ExampleOktyPod.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8476CBFB1A2F531900AEA3EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F06CAF7FF81DD21B898CB725 /* libPods-ExampleOktyPod.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8476CC141A2F531900AEA3EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17A8248EFEF3EA66058C4EE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59374219A6CE4D13DF0DBF9F /* libPods-ExampleOktyPod.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4EBC1F625A4A09410AB9F9E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E457DF8E863D472568D4A29 /* Pods-ExampleOktyPod.debug.xcconfig */,
+				A6CEDCF072DF1A2CF54FDDEC /* Pods-ExampleOktyPod.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8476CBF51A2F531900AEA3EC = {
+			isa = PBXGroup;
+			children = (
+				8476CC001A2F531900AEA3EC /* ExampleOktyPod */,
+				8476CC1A1A2F531900AEA3EC /* ExampleOktyPodTests */,
+				8476CBFF1A2F531900AEA3EC /* Products */,
+				4EBC1F625A4A09410AB9F9E0 /* Pods */,
+				17A8248EFEF3EA66058C4EE7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8476CBFF1A2F531900AEA3EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8476CBFE1A2F531900AEA3EC /* ExampleOktyPod.app */,
+				8476CC171A2F531900AEA3EC /* ExampleOktyPodTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8476CC001A2F531900AEA3EC /* ExampleOktyPod */ = {
+			isa = PBXGroup;
+			children = (
+				8476CC051A2F531900AEA3EC /* AppDelegate.h */,
+				8476CC061A2F531900AEA3EC /* AppDelegate.m */,
+				8476CC271A2F55E900AEA3EC /* InitialViewController.h */,
+				8476CC281A2F55E900AEA3EC /* InitialViewController.m */,
+				8476CC291A2F55E900AEA3EC /* InitialViewController.xib */,
+				8476CC2C1A2F55F000AEA3EC /* RootViewController.h */,
+				8476CC2D1A2F55F000AEA3EC /* RootViewController.m */,
+				8476CC081A2F531900AEA3EC /* ViewController.h */,
+				8476CC091A2F531900AEA3EC /* ViewController.m */,
+				8476CC0B1A2F531900AEA3EC /* Main.storyboard */,
+				8476CC0E1A2F531900AEA3EC /* Images.xcassets */,
+				8476CC101A2F531900AEA3EC /* LaunchScreen.xib */,
+				8476CC011A2F531900AEA3EC /* Supporting Files */,
+			);
+			path = ExampleOktyPod;
+			sourceTree = "<group>";
+		};
+		8476CC011A2F531900AEA3EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8476CC021A2F531900AEA3EC /* Info.plist */,
+				8476CC031A2F531900AEA3EC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8476CC1A1A2F531900AEA3EC /* ExampleOktyPodTests */ = {
+			isa = PBXGroup;
+			children = (
+				8476CC1D1A2F531900AEA3EC /* ExampleOktyPodTests.m */,
+				8476CC1B1A2F531900AEA3EC /* Supporting Files */,
+			);
+			path = ExampleOktyPodTests;
+			sourceTree = "<group>";
+		};
+		8476CC1B1A2F531900AEA3EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8476CC1C1A2F531900AEA3EC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8476CBFD1A2F531900AEA3EC /* ExampleOktyPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8476CC211A2F531900AEA3EC /* Build configuration list for PBXNativeTarget "ExampleOktyPod" */;
+			buildPhases = (
+				1FF9152BC450971D71BEC6BC /* Check Pods Manifest.lock */,
+				8476CBFA1A2F531900AEA3EC /* Sources */,
+				8476CBFB1A2F531900AEA3EC /* Frameworks */,
+				8476CBFC1A2F531900AEA3EC /* Resources */,
+				7C83387FB3C74553A410B07F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExampleOktyPod;
+			productName = ExampleOktyPod;
+			productReference = 8476CBFE1A2F531900AEA3EC /* ExampleOktyPod.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8476CC161A2F531900AEA3EC /* ExampleOktyPodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8476CC241A2F531900AEA3EC /* Build configuration list for PBXNativeTarget "ExampleOktyPodTests" */;
+			buildPhases = (
+				8476CC131A2F531900AEA3EC /* Sources */,
+				8476CC141A2F531900AEA3EC /* Frameworks */,
+				8476CC151A2F531900AEA3EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8476CC191A2F531900AEA3EC /* PBXTargetDependency */,
+			);
+			name = ExampleOktyPodTests;
+			productName = ExampleOktyPodTests;
+			productReference = 8476CC171A2F531900AEA3EC /* ExampleOktyPodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8476CBF61A2F531900AEA3EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Mathias;
+				TargetAttributes = {
+					8476CBFD1A2F531900AEA3EC = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					8476CC161A2F531900AEA3EC = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 8476CBFD1A2F531900AEA3EC;
+					};
+				};
+			};
+			buildConfigurationList = 8476CBF91A2F531900AEA3EC /* Build configuration list for PBXProject "ExampleOktyPod" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8476CBF51A2F531900AEA3EC;
+			productRefGroup = 8476CBFF1A2F531900AEA3EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8476CBFD1A2F531900AEA3EC /* ExampleOktyPod */,
+				8476CC161A2F531900AEA3EC /* ExampleOktyPodTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8476CBFC1A2F531900AEA3EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8476CC0D1A2F531900AEA3EC /* Main.storyboard in Resources */,
+				8476CC121A2F531900AEA3EC /* LaunchScreen.xib in Resources */,
+				8476CC0F1A2F531900AEA3EC /* Images.xcassets in Resources */,
+				8476CC2B1A2F55E900AEA3EC /* InitialViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8476CC151A2F531900AEA3EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1FF9152BC450971D71BEC6BC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7C83387FB3C74553A410B07F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExampleOktyPod/Pods-ExampleOktyPod-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8476CBFA1A2F531900AEA3EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8476CC0A1A2F531900AEA3EC /* ViewController.m in Sources */,
+				8476CC071A2F531900AEA3EC /* AppDelegate.m in Sources */,
+				8476CC041A2F531900AEA3EC /* main.m in Sources */,
+				8476CC2A1A2F55E900AEA3EC /* InitialViewController.m in Sources */,
+				8476CC2E1A2F55F000AEA3EC /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8476CC131A2F531900AEA3EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8476CC1E1A2F531900AEA3EC /* ExampleOktyPodTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8476CC191A2F531900AEA3EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8476CBFD1A2F531900AEA3EC /* ExampleOktyPod */;
+			targetProxy = 8476CC181A2F531900AEA3EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8476CC0B1A2F531900AEA3EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8476CC0C1A2F531900AEA3EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8476CC101A2F531900AEA3EC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8476CC111A2F531900AEA3EC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8476CC1F1A2F531900AEA3EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8476CC201A2F531900AEA3EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8476CC221A2F531900AEA3EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E457DF8E863D472568D4A29 /* Pods-ExampleOktyPod.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ExampleOktyPod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8476CC231A2F531900AEA3EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6CEDCF072DF1A2CF54FDDEC /* Pods-ExampleOktyPod.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ExampleOktyPod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8476CC251A2F531900AEA3EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ExampleOktyPodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExampleOktyPod.app/ExampleOktyPod";
+			};
+			name = Debug;
+		};
+		8476CC261A2F531900AEA3EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ExampleOktyPodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExampleOktyPod.app/ExampleOktyPod";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8476CBF91A2F531900AEA3EC /* Build configuration list for PBXProject "ExampleOktyPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8476CC1F1A2F531900AEA3EC /* Debug */,
+				8476CC201A2F531900AEA3EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8476CC211A2F531900AEA3EC /* Build configuration list for PBXNativeTarget "ExampleOktyPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8476CC221A2F531900AEA3EC /* Debug */,
+				8476CC231A2F531900AEA3EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8476CC241A2F531900AEA3EC /* Build configuration list for PBXNativeTarget "ExampleOktyPodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8476CC251A2F531900AEA3EC /* Debug */,
+				8476CC261A2F531900AEA3EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8476CBF61A2F531900AEA3EC /* Project object */;
+}

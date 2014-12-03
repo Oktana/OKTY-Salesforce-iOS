@@ -1,4 +1,6 @@
-# OKTY-Salesforce-iOS
+<p align="center" >
+  <img src="http://www.oktana.io/drive/okty-salesforce-ios.png" alt="OKTY-Salesforce-iOS" title="OKTY-Salesforce-iOS">
+</p>
 
 A neat library manager to connect iOS with Salesforce
 OKTY-Salesforce-iOS, a neat library manager developed by Oktana, to connect native iOS apps with [Salesforce](https://github.com/forcedotcom/SalesforceMobileSDK-iOS-Distribution).

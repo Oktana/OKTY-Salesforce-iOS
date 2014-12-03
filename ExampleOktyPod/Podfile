@@ -1,0 +1,11 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '6.0'
+
+target 'ExampleOktyPod' do
+    pod 'OKTY-Salesforce-iOS', :git => "https://github.com/Oktana/OKTY-Salesforce-iOS"
+end
+
+target 'ExampleOktyPodTests' do
+
+end
+

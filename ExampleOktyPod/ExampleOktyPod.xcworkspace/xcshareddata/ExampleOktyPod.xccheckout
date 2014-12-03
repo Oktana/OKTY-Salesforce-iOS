@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>77585BFB-6DF7-40C5-824C-153F36847245</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ExampleOktyPod</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>088451C72FBC8AD30E348259CA46D416015FC846</key>
+		<string>https://github.com/Oktana/OKTY-Salesforce-iOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ExampleOktyPod/ExampleOktyPod.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>088451C72FBC8AD30E348259CA46D416015FC846</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Oktana/OKTY-Salesforce-iOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>088451C72FBC8AD30E348259CA46D416015FC846</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>088451C72FBC8AD30E348259CA46D416015FC846</string>
+			<key>IDESourceControlWCCName</key>
+			<string>OKTY-Salesforce-iOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>

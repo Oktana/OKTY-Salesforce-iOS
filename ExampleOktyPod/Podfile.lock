@@ -1,0 +1,35 @@
+PODS:
+  - OKTY-Salesforce-iOS (0.1.0):
+    - OKTY-Salesforce-iOS/CommonUtils (= 0.1.0)
+    - OKTY-Salesforce-iOS/MKNetworkKit (= 0.1.0)
+    - OKTY-Salesforce-iOS/Network (= 0.1.0)
+    - OKTY-Salesforce-iOS/OAuth (= 0.1.0)
+    - OKTY-Salesforce-iOS/openssl (= 0.1.0)
+    - OKTY-Salesforce-iOS/RestAPI (= 0.1.0)
+    - OKTY-Salesforce-iOS/SDKCore (= 0.1.0)
+    - OKTY-Salesforce-iOS/Security (= 0.1.0)
+  - OKTY-Salesforce-iOS/CommonUtils (0.1.0)
+  - OKTY-Salesforce-iOS/MKNetworkKit (0.1.0)
+  - OKTY-Salesforce-iOS/Network (0.1.0)
+  - OKTY-Salesforce-iOS/OAuth (0.1.0)
+  - OKTY-Salesforce-iOS/openssl (0.1.0)
+  - OKTY-Salesforce-iOS/RestAPI (0.1.0)
+  - OKTY-Salesforce-iOS/SDKCore (0.1.0)
+  - OKTY-Salesforce-iOS/Security (0.1.0)
+
+DEPENDENCIES:
+  - OKTY-Salesforce-iOS (from `https://github.com/Oktana/OKTY-Salesforce-iOS`)
+
+EXTERNAL SOURCES:
+  OKTY-Salesforce-iOS:
+    :git: https://github.com/Oktana/OKTY-Salesforce-iOS
+
+CHECKOUT OPTIONS:
+  OKTY-Salesforce-iOS:
+    :commit: 124cbadb6b0da157567f899125b80417354c8e31
+    :git: https://github.com/Oktana/OKTY-Salesforce-iOS
+
+SPEC CHECKSUMS:
+  OKTY-Salesforce-iOS: 696678e2b62d969e3804973979d802c6e2da9421
+
+COCOAPODS: 0.35.0
