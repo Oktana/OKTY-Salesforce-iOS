@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
     
     s.screenshot       = 'http://www.oktana.io/drive/okty-salesforce-ios-sample.png'
 
-    s.source_files     = 'SalesforceMobileSDK-iOS-Distribution/Headers/*'
+   # s.source_files     = 'SalesforceMobileSDK-iOS-Distribution/Headers/*'
 
     s.vendored_libraries = "SalesforceMobileSDK-iOS-Distribution/libSalesforceCommonUtils.a", "SalesforceMobileSDK-iOS-Distribution/libMKNetworkKit-iOS.a", "SalesforceMobileSDK-iOS-Distribution/libSalesforceNetworkSDK.a", "SalesforceMobileSDK-iOS-Distribution/libSalesforceOAuth.a", "SalesforceMobileSDK-iOS-Distribution/libSalesforceSDKCore.a", "SalesforceMobileSDK-iOS-Distribution/libSalesforceSecurity.a","SalesforceMobileSDK-iOS-Distribution/libSalesforceRestAPI.a", "SalesforceMobileSDK-iOS-Distribution/libcrypto.a", "SalesforceMobileSDK-iOS-Distribution/libsqlcipher.a", "SalesforceMobileSDK-iOS-Distribution/libssl.a"
 
