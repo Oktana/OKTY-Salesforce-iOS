@@ -23,8 +23,8 @@ Pod::Spec.new do |s|
     s.homepage         = "https://github.com/Oktana/OKTY-Salesforce-iOS"
     s.license          = 'MIT'
     s.author           = { "Mathias" => "mathias@oktana.io" }
-    s.source           = { :git => "https://github.com/Oktana/OKTY-Salesforce-iOS.git"}
-    s.platform         = :ios, '7.0'
+    s.source           = { :git => "https://github.com/Oktana/OKTY-Salesforce-iOS.git", :tag => "0.1.0"}
+    s.platform         = :ios
     s.requires_arc     = true
     
     s.screenshot       = 'http://www.oktana.io/drive/okty-salesforce-ios-sample.png'
